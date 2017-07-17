@@ -36,7 +36,6 @@
 
 #include <linux/ioport.h>
 #include <asm/io.h>
-#include <mach/platform.h>
 
 MODULE_AUTHOR("Markus Hiienkari");
 MODULE_DESCRIPTION("NES, SNES, N64, PSX, GC gamepad driver");
@@ -44,6 +43,11 @@ MODULE_LICENSE("GPL");
 
 #define GC_MAX_DEVICES		6
 
+#ifdef CONFIG_ARCH_MULTI_V7
+#define BCM2708_PERI_BASE 0x3F000000
+#else
+#define BCM2708_PERI_BASE 0x20000000
+#endif
 #define GPIO_BASE                (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
 
 #define GPIO_SET *(gpio+7)
