@@ -1,0 +1,9 @@
+Package: gamecon-gpio-rpi-dkms
+Version: 1.2
+Architecture: all
+Maintainer: Markus Hiienkari <mhiienka@niksula.hut.fi>
+Installed-Size: 78
+Depends: dkms (>= 1.95)
+Section: misc
+Priority: optional
+Description: gamecon-gpio-rpi driver in DKMS format.

@@ -1,0 +1,5 @@
+c054b80594957ad8457600ee7b0172d2  usr/share/doc/gamecon_gpio_rpi/README.gz
+8e83d213bd250804b0fd6390265d175b  usr/share/gamecon_gpio_rpi-dkms/postinst
+219bf6ca11b1e5966c681573c48014f0  usr/src/gamecon_gpio_rpi-1.2/Makefile
+00a02bb639e024bc3986ad5929a4f043  usr/src/gamecon_gpio_rpi-1.2/dkms.conf
+332b31230a0e69a76ec7cbbf0f04dabc  usr/src/gamecon_gpio_rpi-1.2/gamecon_gpio_rpi.c
