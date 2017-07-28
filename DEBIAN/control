@@ -1,5 +1,5 @@
 Package: gamecon-gpio-rpi-dkms
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Markus Hiienkari <mhiienka@niksula.hut.fi>
 Installed-Size: 78
